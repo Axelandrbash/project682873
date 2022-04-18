@@ -1,0 +1,96 @@
+ErrorDocument 403 /404.html
+ErrorDocument 404 /404.html
+
+DirectoryIndex page16744978.html
+
+RewriteEngine On
+
+RewriteCond %{HTTP:X-Forwarded-Proto} =http
+RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
+
+RewriteCond %{REQUEST_FILENAME} /robots.txt
+RewriteCond "%{DOCUMENT_ROOT}/robots_%{HTTP_HOST}.txt" -f
+RewriteRule ^(.*)$ robots_%{HTTP_HOST}.txt [NC,L]
+RewriteRule ^gamification$ page783597.html [NC]
+RewriteRule ^gamification/$ page783597.html [NC]
+
+RewriteRule ^worldwide$ page2283235.html [NC]
+RewriteRule ^worldwide/$ page2283235.html [NC]
+
+RewriteRule ^yc$ page3174758.html [NC]
+RewriteRule ^yc/$ page3174758.html [NC]
+
+RewriteRule ^coopetition$ page2220747.html [NC]
+RewriteRule ^coopetition/$ page2220747.html [NC]
+
+RewriteRule ^master$ page2358069.html [NC]
+RewriteRule ^master/$ page2358069.html [NC]
+
+RewriteRule ^dgeast$ page10152790.html [NC]
+RewriteRule ^dgeast/$ page10152790.html [NC]
+
+RewriteRule ^gamification-67225$ page1831407.html [NC]
+RewriteRule ^gamification-67225/$ page1831407.html [NC]
+
+RewriteRule ^feedback$ page2491246.html [NC]
+RewriteRule ^feedback/$ page2491246.html [NC]
+
+RewriteRule ^stakeholders$ page4113299.html [NC]
+RewriteRule ^stakeholders/$ page4113299.html [NC]
+
+RewriteRule ^thelastgame$ page4230044.html [NC]
+RewriteRule ^thelastgame/$ page4230044.html [NC]
+
+RewriteRule ^tech$ page4971047.html [NC]
+RewriteRule ^tech/$ page4971047.html [NC]
+
+RewriteRule ^grantprogram$ page6739793.html [NC]
+RewriteRule ^grantprogram/$ page6739793.html [NC]
+
+RewriteRule ^nus$ page7088083.html [NC]
+RewriteRule ^nus/$ page7088083.html [NC]
+
+RewriteRule ^2019$ page9605738.html [NC]
+RewriteRule ^2019/$ page9605738.html [NC]
+
+RewriteRule ^ugcc$ page9985306.html [NC]
+RewriteRule ^ugcc/$ page9985306.html [NC]
+
+RewriteRule ^thegame$ page10192276.html [NC]
+RewriteRule ^thegame/$ page10192276.html [NC]
+
+RewriteRule ^online/en$ page10415530.html [NC]
+RewriteRule ^online/en/$ page10415530.html [NC]
+
+RewriteRule ^md$ page11005100.html [NC]
+RewriteRule ^md/$ page11005100.html [NC]
+
+RewriteRule ^impact$ page11232474.html [NC]
+RewriteRule ^impact/$ page11232474.html [NC]
+
+RewriteRule ^game$ page11465810.html [NC]
+RewriteRule ^game/$ page11465810.html [NC]
+
+RewriteRule ^umiimpact$ page11871476.html [NC]
+RewriteRule ^umiimpact/$ page11871476.html [NC]
+
+RewriteRule ^size21$ page16080000.html [NC]
+RewriteRule ^size21/$ page16080000.html [NC]
+
+RewriteRule ^ycgrant$ page16547910.html [NC]
+RewriteRule ^ycgrant/$ page16547910.html [NC]
+
+RewriteRule ^cooperation$ page16744978.html [NC]
+RewriteRule ^cooperation/$ page16744978.html [NC]
+
+RewriteRule ^online$ page17093087.html [NC]
+RewriteRule ^online/$ page17093087.html [NC]
+
+RewriteRule ^agent$ page20141160.html [NC]
+RewriteRule ^agent/$ page20141160.html [NC]
+
+RewriteRule ^nqa$ page23752365.html [NC]
+RewriteRule ^nqa/$ page23752365.html [NC]
+
+RewriteRule ^favicon.ico$ https://static.tildacdn.com/tild3230-6563-4035-b462-616565636263/tilda_black_logo_ico.ico [R=302,L]
+
